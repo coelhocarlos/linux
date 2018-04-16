@@ -3,7 +3,7 @@ dd if=/dev/sda1 of=/media/hd160/backup/sdadisk.img
 Restaura Imagen Backup
 dd if=/media/hd160/backup/sdadisk.img of=/dev/sda1
 
-Cria Imagen Backup
-dd if=/dev/sda1 | pv --eta --size 171798691840 --progress --bytes --rate --wait > /media/hd2000/backup/sdadisk.img
+Cria Imagen Backup HD 320
+dd if=/dev/sda1 | pv --eta --size 343597383680 --progress --bytes --rate --wait > /media/hd2000/backup/sdadisk.img
 Restaura Imagen Backup
-dd if=/media/hd2000/backup/sdadisk.img --eta --size 171798691840 --progress --bytes --rate --wait > /dev/sda1
+dd if=/media/hd2000/backup/sdadisk.img --eta --size 343597383680 --progress --bytes --rate --wait > /dev/sda1
