@@ -1,0 +1,4 @@
+Cria Imagen Backup
+dd if=/dev/sda1 of=/media/hd160/backup/sdadisk.img
+Restaura Imagen Backup
+dd if=/media/hd160/backup/sdadisk.img of=/dev/sda1
