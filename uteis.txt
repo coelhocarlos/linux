@@ -1,4 +1,7 @@
 lsof -P -iTCP | grep LISTEN //ouvinte
 tcpdump port 443 and '(tcp-syn|tcp-ack)!=0'// realtime monitor port
+
+nextcloud
 https://hund0b1.gitlab.io/2019/03/26/how-to-upload-files-to-nextcloud-using-only-a-shell-script.html
+ispconfig
 https://www.howtoforge.com/tutorial/ubuntu-ispconfig-automated-install-script/
